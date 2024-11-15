@@ -1,0 +1,81 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #949398FF; /* Lightened turquoise for a softer background */
+   text-align: center;
+   font-family: Arial, sans-serif;
+   color: #F4DF4EFF; /* Dark grey for a balanced text color */
+}
+
+h1 {
+   font-size: 4rem;
+   color: #00203FFF; /* White for high contrast with the background */
+}
+
+.container {
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.game {
+   height: 60vmin;
+   width: 60vmin;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 2vmin; /* Reduced gap for a tighter layout */
+}
+
+.box {
+   height: 15vmin;
+   width: 15vmin;
+   border-radius: 8px;
+   border: none;
+   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25); /* Softer shadow */
+   font-size: 4rem; /* Adjusted font size */
+   color: #2C5F2D; 
+   background-color: #e16969; /* Light grey for a soft box background */
+}
+
+#reset-btn,
+#new-btn {
+   padding: 12px 20px;
+   border-radius: 8px;
+   border: none;
+   background-color: rgb(208, 163, 103); /* Tomato red for a bold but professional look */
+   color: #FFFFFF;
+   font-size: 1.2rem;
+   margin-bottom: 3rem;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+   background-color: #A07855FF; /* Darker red on hover */
+}
+
+#msg {
+   color: #FF6347; /* Tomato red for consistency with button color */
+   font-size: 2.5rem;
+}
+
+.msg-container {
+   height: 100vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10vmin;
+   flex-direction: column;
+}
+
+.hide {
+   display: none;
+}
